@@ -17,9 +17,28 @@ public class Stepdefs {
     AuthenticationService auth = new AuthenticationService(userDao);
     List<String> inputLines = new ArrayList<>();
     
+    @Given("^command new user is selected$")
+    public void command_new_user_selected() throws Throwable {
+        clearInputLines();
+        inputLines.add("new");
+    }
+    
     @Given("^command login is selected$")
     public void command_login_selected() throws Throwable {
+        clearInputLines();
         inputLines.add("login");
+    }
+    
+    @Given("^user \"([^\"]*)\" with password \"([^\"]*)\" is created$")
+    public void user_with_password_is_created(String username, String password) throws Throwable {
+        clearInputLines();
+        inputLines.add("new");
+        inputLines.add(username);
+        inputLines.add(password);
+        
+        io = new StubIO(inputLines);
+        app = new App(io, auth);
+        app.run();
     }
 
     @When("^username \"([^\"]*)\" and password \"([^\"]*)\" are entered$")
@@ -35,5 +54,9 @@ public class Stepdefs {
     @Then("^system will respond with \"([^\"]*)\"$")
     public void system_will_respond_with(String expectedOutput) throws Throwable {
         assertTrue(io.getPrints().contains(expectedOutput));
+    }
+
+    private void clearInputLines() {
+        inputLines.clear();
     }
 }
