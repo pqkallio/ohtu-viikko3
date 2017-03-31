@@ -1,0 +1,14 @@
+## Start, Stop, Continue, More of, Less of Wheel
+
+Tämän tekniikan tarkoituksena on kerätä tiimiltä edelliseen sprinttiin liittyviä huomioita ja ongelmia viiteen eri kategoriaan:
+- asioihin, jotka pitäisi aloittaa,
+- asioihin, jotka pitäisi lopettaa,
+- asioihin, joita pitäisi jatkaa,
+- asioihin, joita pitäisi toteuttaa enemmän ja
+- asioihin, joita pitäisi toteuttaa vähemmän.
+
+Tämän jälkeen asioista keskutellaan yhdessä ryhmän kanssa ja tarkennetaan tarvittaessa, mitä kirjoittaja on tarkoittanut. Lopuksi päätetään konkreettisista toimista huomioihin liittyen.
+
+## Glad, Sad, Mad
+
+Kaikki osallistujat kirjoittavat pienille korteille tai lapuille edelliseen sprinttiin liittyviä huomioita. Huomioita ei pidä rajoittaa vain tiimin toimiin, vaan myös muihin sprinttiin vaikuttaviin asioihin tulee tarttua. Tämän jälkeen laput kerätään taululle ja kirjoittajat kertovat lyhyesti mitä korteillaan tarkoittavat, ilman muiden kommentointia. Taulu on jaettu kolmeen osaan: iloisiin, surullisiin ja vihastuttaviin asioihin. Kirjoittaja asettaa korttinsa johonkin näistä kategorioista. Tämän jälkeen osallistujat äänestävät mistä korteissa olevista asioista keskustellaan. Lopuksi keskustellaan valituista asioista ja päätetään niihin liittyvistä toimista.
